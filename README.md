@@ -2,6 +2,6 @@
 
 ---
 
-![alt text]("Screenshot 1.png)
+![]("Screenshot1.png)
 
-![alt text]("Screenshot 2.png)
+![]("Screenshot2.png)
