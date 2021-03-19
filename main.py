@@ -179,7 +179,7 @@ for n in range(len(x_test)):
 	if np.argmax(Net.forward(np.array([x_test[n]]))[0])==np.argmax((y_test[n])):
 		count+=1
 
-print(f"Accuray:{'%.2f'%float((count/len(x_test)) *100)}")
+print(f"Test Accuray:{'%.2f'%float((count/len(x_test)) *100)}")
 
 for _ in range(10):
 	n=np.random.randint(0,len(x_test)-1)
